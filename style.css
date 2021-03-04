@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+ // background: rgb(29, 36, 56);
+  font-family: "Baloo Tamma 2", cursive;
+    font-family: "Roboto Slab", serif;
+
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 4px solid  red;
+;
+  transition: 0.5s ease;
+}
+nav{
+  background-color: rgb(8, 109, 233);
+  min-height: 120px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 50px;
+}
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+margin-top: -14px;
+  z-index: 1;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 80vh;
+}
+
+/* About Section */
+.about {
+  
+ background: rgb(32,32,32);
+  border-radius: 0.5rem;
+  
+  
+}
+
+.card {
+  box-shadow: 3px 3px 3px 3px   rgb(8, 109, 233);
+;
+;
+}
+
+/* Social Media Section */
+#social-media {
+  background-color: rgb(8, 109, 233);
+  //opacity: .8;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+  .info{
+    word-spacing: .2rem;
+    color: rgb(8, 109, 233);
+    line-height: 43px;
+    list-style: none;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.aboutMe{
+  margin-left: 150px;
+  background-color: rgb(8, 109, 233);
+  width: 77%;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.myPro{
+  margin-left: 150px;
+  background-color: rgb(8, 109, 233);
+  width: 77%;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact:hover{
+  background-color: rgb(8, 109, 233);
+}
+img { 
+   width: 100%; 
+   height: 100%; 
+   object-fit: contain; 
+   border-radius: 20px;
+    box-shadow: 3px 3px  rgb(8, 109, 233);           
+                }
+  //.col-6 img{
+    height: 900px;
+    width: 700px;
+  }
+  .skill{
+    color: red;
+    line-height: 63px;
+  }
+  .col-6 img{
+    width: 100%;
+    height: auto;
+  }
+  .row{
+    display: flex;
+    
+  }
+  hr{
+    border: 4px solid rgb(233, 8, 27);
+  border-radius: 5px;
+  }
+  #projects{
+    font-family: 'Roboto', sans-serif;
+  }
+  #projects h5{
+    font-weight: bolder;
+  }
+
+
+  
